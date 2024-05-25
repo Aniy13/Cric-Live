@@ -1,0 +1,23 @@
+<header class="bg-blue-800 shadow-lg">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <div class="text-2xl font-extrabold text-white">
+            CricLive
+        </div>
+        <nav class="space-x-6">
+            <a [routerLink]="'/home'" href="#" class="text-white hover:bg-white hover:text-blue-800 py-2 px-4 rounded transition duration-300">Home</a>
+            <a [routerLink]="'/live'"href="#" class="text-white hover:bg-white hover:text-blue-800 py-2 px-4 rounded transition duration-300">Live</a>
+            <a [routerLink]="'/history'"href="#" class="text-white hover:bg-white hover:text-blue-800 py-2 px-4 rounded transition duration-300">History</a>
+            <a [routerLink]="'/point-table'" href="#" class="text-white hover:bg-white hover:text-blue-800 py-2 px-4 rounded transition duration-300">Point Table</a>
+        </nav>
+        <div>
+
+        </div>
+    </div>
+</header>
+
+<div class="px-28 py-8">
+    <router-outlet></router-outlet>
+</div>
+<h1>
+    footer
+</h1>
